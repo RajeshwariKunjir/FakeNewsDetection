@@ -5,8 +5,8 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import PassiveAggressiveClassifier
 from sklearn.metrics import accuracy_score, confusion_matrix
 
-# Read the data
-df = pd.read_csv('/Users/anujkrishnapandit/Desktop/news.csv')
+# Read the data from the given file to detect the fake or real news
+df = pd.read_csv('news.csv')
 
 # Get shape and head
 df.head()
